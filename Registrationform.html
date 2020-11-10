@@ -13,12 +13,12 @@
 <hr />
 <br />
   Name: <input type="text" placeholder=" Your First Name" required pattern="[a-zA-Z]+" title="Name should only contain letters "/>
-       <input type="text" placeholder="Your Last Name" required pattern="[a-zA-Z]+" /><br /><br />
- Name of guardian: <input type="text" required pattern="[a-zA-Z]+" /><br /><br />
+       <input type="text" placeholder="Your Last Name" required pattern="[a-zA-Z]+" title="Name should only contain letters "/><br /><br />
+ Name of guardian: <input type="text" required pattern="[a-zA-Z]+" title="Name should only contain letters "/><br /><br />
   
   Gender : 
   male: <input type="radio" value="mal" name="gender" />
-  female: <input type="radio" value="femal" name="gender" />
+  female: <input type="radio" value="fem" name="gender" />
   others: <input type="radio" value="oth" name="gender" /><br /><br />
   
    Date of Birth:<input type="date" />
@@ -26,7 +26,7 @@
   
  Address:<br /> <textarea rows="5" cols="40" placeholder="Your Current Address"></textarea><br /><br />
   
-  Contact No. : <input type="text" pattern="/d{10}"/><br /><br />
+  Contact No. : <input type="text" pattern="\d{10}" title="mobile no. should only contain digits"/><br /><br />
   
   Nationality: <input type="text" /><br /><br />
   
