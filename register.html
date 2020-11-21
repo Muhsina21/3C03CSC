@@ -1,0 +1,65 @@
+<!DOCTYPE.html>
+<html>
+    <head>
+    <title>REGISTRATION FORM</title>
+    </head>
+    <body style="width:50%;margin:auto">
+    <br /><br />
+ <form style="border:3px solid black;padding:6px;background-color:#87CEEB">
+        <h3 style="text-align:center"> REGISTRATION FORM </h3>
+        Name :
+              <input type="text" placeholder="first name" required />
+              <input type="text" placeholder="last name"/><br /><br />
+        Name of guardian : <input type="text" /><br /><br />
+        Gender : 
+            male : <input type="radio" value="mal" name="gender" />
+            female : <input type="radio" value="fem" name="gender" />
+            others : <input type="radio" value="oth" name="gender" /><br /><br />
+        Date of Birth : <input type="date" /><br /><br />
+        Mobile No. : <input type="text" required /><br /><br />
+        Address : <textarea placeholder="your current address" cols="35" rows="4"></textarea><br /><br />
+        Nationality : <input type="text" value="INDIAN" /><br /><br />
+        State : 
+                <input type=text list="states" /> 
+                <datalist id="states">
+                <option value="Kerala" />
+                <option value="Tamilnadu" />
+                <option value="Karnataka" />
+                <option value="Goa" />
+                <option value="Gujarat" />
+                <option value="Meghalaya" />
+                <option value="Maharashtra" />
+                <option value="Assam" />
+                <option value="Bihar" />
+                <option value="Nagaland" />
+                <option value="Madhyapradhesh" />
+                <option value="Uttarpradhesh" />
+                <option value="Others" />
+                </datalist><br /><br />
+        Languages Known : 
+                        Malayalam : <input type="checkbox" value="mal" />
+                        English : <input type="checkbox" value="eng" />
+                        Hindi : <input type="checkbox" value="hin" />
+                        Others : <input type="checkbox" value="oth" /><br /><br />
+        Courses : 
+        <select>
+            <option>Python</option>
+             <option>Javascript</option> 
+             <option>Java</option>
+             <option>C#</option>
+             <option>C</option>
+             <option>C++</option>
+             <option>R</option>
+             <option>GO</option> 
+             <option>Swift</option>
+             <option>PHP</option>
+        </select>
+    <br /> <br />
+        Email : <input type="email" /><br /><br />
+        Password : <input type="password" /> 
+        <input type="password" placeholder="confirm password" /><br /><br />
+        <input type="submit" value="Register" />
+    </form>
+    <br /><br />
+    </body>
+</html>
